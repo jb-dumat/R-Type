@@ -1,0 +1,18 @@
+[requires]
+boost/1.67.0@conan/stable
+sfml/2.5.1@bincrafters/stable
+
+[options]
+sfml:graphics = True
+sfml:audio = True
+sfml:window = True
+sfml:network = True
+#libasla:disable_python = True
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin # Copies all dll files from packages bin folder to my "bin" folder
+lib, *.dylib* -> ./bin # Copies all dylib files from packages lib folder to my "bin" folder
+lib, *.so* -> ./bin # Copies all dylib files from packages lib folder to my "bin"
