@@ -7,7 +7,8 @@ The architectural pattern is Client/Server and the game engine uses an Entity-Co
 
 * **Valentin Chelot**
 * **Hung Dao-Nguyen**
-* **Jean-Baptiste Dumat**                                                                                                                 * **Rémy Machado**                                                                            
+* **Jean-Baptiste Dumat**
+* **Rémy Machado**                                                                            
                                                                                       
                                                                                                         
                                                                                                         
